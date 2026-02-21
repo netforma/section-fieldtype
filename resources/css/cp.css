@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@source "../js";
+
+.form-group.section-fieldtype {
+    border: none;
+    padding: 0;
+    box-shadow: none;
+}
+
+.form-group.section-fieldtype > label {
+    display: none;
+}
