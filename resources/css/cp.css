@@ -8,6 +8,6 @@
     box-shadow: none;
 }
 
-.form-group.section-fieldtype > label {
+.form-group.section-fieldtype label {
     display: none;
 }
