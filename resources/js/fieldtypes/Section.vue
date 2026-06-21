@@ -9,5 +9,6 @@ defineProps({
         <div class="font-semibold text-gray-800 dark:text-gray-200 text-sm">
             {{ config.display }}
         </div>
+        <p v-if="config.instructions" class="text-gray-600 dark:text-gray-400 text-xs mt-1" v-html="config.instructions"></p>
     </div>
 </template>

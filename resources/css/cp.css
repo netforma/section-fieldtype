@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss/theme" layer(theme);
 
 @source "../js";
 
@@ -9,5 +9,9 @@
 }
 
 .form-group.section-fieldtype label {
+    display: none;
+}
+
+.form-group.section-fieldtype .help-block {
     display: none;
 }
